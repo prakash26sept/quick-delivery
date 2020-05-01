@@ -1,0 +1,604 @@
+/* reset css */
+
+h1{
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+div{
+    font-size: 1.2vw;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 44%;
+    align-items: center;
+    color: grey;
+}
+
+.logo-div{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.button-green{
+    background-color: rgb(95, 196, 134);
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 0;
+}
+
+.button-transparent{
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid white;
+}
+
+
+.first-section{
+
+    width: 100%;
+    /* padding: 40px;
+    padding-left: 250px; */
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('../images/serviceboy.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.first-section-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 40px;
+    padding-left: 150px;
+   
+}
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: url('../images/ic-home-services-bg@3x.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: black;
+    text-align: center;
+    /* padding: 30px; */
+    padding-top: 50px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: url('../images/ic-home-services-bg@3x.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.fifth-section{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.sixth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.seventh-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: url('../images/ic-home-services-bg@3x.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    position: relative;
+}
+
+.contact-us-div{
+    color: white;
+}
+
+
+.about-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+     padding-left: 70px;
+}
+
+
+.video-and-mobile-img{
+    height: 100%;
+    width: 100%;
+}
+
+.video-div{
+    width: 60%;
+    height: 550px;
+}
+
+.services-items{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.about-div h1{
+    color: rgb(95, 196, 134);
+}
+
+.about-div h4{
+    color: grey;
+}
+
+
+.first-section-button-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    width: 20%;
+    justify-content: space-between; 
+}
+
+.second-section-button-div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.store-button{
+    margin: 10px;
+    width: 182px;
+
+}
+
+.store-button-img{
+    border-radius: 7px;
+    width: 100%;
+}
+
+/* .first-section-item{
+    
+} */
+
+.first-section h1{
+    font-size: 50px;
+    color: rgb(95, 196, 134);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-section-item h3{
+    font-size: 30px;
+    color: white;
+}
+
+.first-section-item h4{
+    color: white;
+}
+
+.key-feature-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.key-feature-div-items{
+    /* padding-left: 40px;
+    padding-right: 40px;  */
+    padding-bottom: 50px;
+}
+
+
+/* .key-item-img-div{
+    /* width: 220px;
+    height: 220px; }*/
+ 
+
+.fifth-section{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.map-div{
+    width: 40%;
+}
+
+.map-div-img{
+    width: 100%;
+}
+
+
+.key-item-img{
+    width: 100%;
+    height: 100%;
+}
+
+.key-feature-div-item{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.key-feature-details{
+    color: grey;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 14%;
+    width: 27%;
+}
+
+/* .contact-div{
+    
+} */
+
+.services-img{
+    border-radius: 8px;
+}
+
+input{
+    border: 0;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+    padding: 5% 11%;
+    margin: 3% 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.input-div{
+    width: 100%;
+}
+
+.send-button{
+    background-color: rgb(95, 196, 134);;
+    color: white;
+    width: 50%;
+}
+
+.get-in-touch-text{
+    padding: 10px;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+
+.flying-img{
+
+    width: 100%;
+}
+
+.flying-img-div{
+    position: absolute;
+    top: -60px;
+    width: 100px;
+}
+
+
+@media screen and (max-width: 600px){
+    .first-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('../images/serviceboy.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    .video-and-mobile-img{
+        height: 400px;
+        width: 80%;
+        
+    }
+
+    .video-div{
+        width: 100%;
+        height: 60%;
+    }
+
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+        width: 100%;
+
+    }
+
+    .fifth-section{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        justify-content: space-between;
+    }
+
+    .phone{
+        position: block;
+        }
+
+    .nav-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        color: grey;
+    }
+
+    .first-section-item h4{
+        color: white;
+        text-align: center;
+    }
+
+    .first-section-button-div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        width: 40%;
+        justify-content: space-between; 
+        height: 120px;
+    }
+
+    div{
+        font-size: 4.5vw;
+    }
+
+    .button-green{
+        background-color: rgb(95, 196, 134);
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 0;
+        width: 100%;
+    }
+    
+    .first-section-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+        /* padding-left: 0; */
+
+    }
+
+    .button-transparent{
+        background-color: transparent;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 1px solid white;
+        width: 100%;
+    }
+
+    .key-feature-div-item{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 55%;
+        justify-content: center;
+    }
+
+    .sixth-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .second-section-button-div{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: space-between; 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        align-items: center;
+    }
+
+    .map-div{
+        width: 90%;
+        margin: auto;
+    }
+
+    .services-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    /* .key-feature-div-item{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: center;
+    }    */
+
+    .key-item-img-div{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .key-feature-div-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-item{
+        padding: 10px;
+    }
+
+    .services-item-box{
+        padding: 20px;
+    }
+
+    .about-div{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        width: 82%;
+        margin-bottom: 20px;
+    }
+
+    .send-button{
+        background-color: rgb(95, 196, 134);
+        color: white;
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    .send-button-div{
+        width: 38%;
+    }
+
+    .store-button{
+        margin: 10px;
+        width: 150px;
+    }
+
+    input{
+        border: 0;
+        background-color: rgb(233, 233, 233);
+        border-radius: 3px;
+        padding: 5% 4px;
+        margin: 3% 0;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .flying-img-div{
+        top: -35px;
+        width: 70px;
+    }
+
+    
+}
